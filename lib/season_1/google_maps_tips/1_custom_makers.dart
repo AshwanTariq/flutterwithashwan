@@ -73,7 +73,7 @@ class _CustomMarkerMapScreenState extends State<CustomMarkerMapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Custom Marker Example'),
+        title: Text('Custom Marker Example '),
       ),
       body: GoogleMap(
         onMapCreated: _onMapCreated,
