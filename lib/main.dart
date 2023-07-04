@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_project/season_1/google_maps_tips/1_custom_makers.dart';
+import 'package:flutter_project/season_1/google_maps_tips/2_flutter_geofancing.dart';
 import 'package:flutter_project/season_1/least_used_widgets/4_sliverFillViewport.dart';
 import 'package:flutter_project/season_1/least_used_widgets/5_indexed_stack.dart';
 
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.black38),
         useMaterial3: true,
       ),
-      home:  CustomMarkerMapScreen(),
+      home:  Geofancing(),
     );
   }
 }
