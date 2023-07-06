@@ -38,10 +38,15 @@ dependencies:
   geocoding: ^2.1.0
   cupertino_icons: ^1.0.5
   flutter_heat_map: ^1.2.1
+  assets_gen: ^1.5.0
+
+  flutter_polyline_points: ^1.0.0
+  font_awesome_flutter: ^10.5.0
+
   flutter:
     sdk: flutter
-  assets_gen: ^1.5.0
-  easy_geofencing: ^0.2.0
+  polymaker: ^1.0.3
+
 
 dev_dependencies:
   flutter_lints: ^2.0.0
@@ -56,6 +61,11 @@ flutter:
 
   assets:
     - assets\images\location.png
+    - assets\styles\bold.txt
+    - assets\styles\elegent.txt
+    - assets\styles\nighttime.txt
+    - assets\styles\pastel.txt
+    - assets\styles\vibrant.txt
 assets_gen:
 
 
